@@ -1,0 +1,43 @@
+/* ++++++++++++++++++++++++++++++++++++++++++++++
+ * Real Pull Quotes
+ * version 1.0
+ *
+ * Ed Katzman
+ * http://edkatzman.com/
+ *
+ * real-pull-quotes.css
+ *
+ * ======================================
+*/
+
+.tdg-real-pull-quotes {
+	color: #666666;
+	display: block;
+	font-size: 110%;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.tdg-real-pull-quotes-align-right {
+	float: right;
+	margin: 0em 0 1em 1.5em;
+	padding: 0.5em 0 0.5em 1.0em;
+	border-left: solid 2px #ff0000;
+	width: 30%;
+}
+
+.tdg-real-pull-quotes-align-left {
+	float: left;
+	margin: 1em 1em 1em 0;
+	padding: 0.5em 1em 0.5em 0;
+	border-right: solid 2px #ff0000;
+	width: 30%;
+}
+
+.tdg-real-pull-quotes-align-full {
+	float: none;
+	margin: 1em 1em 1em 1.5em;
+	padding: 0.5em 1em 0.5em 1.0em;
+	border-left: solid 2px #ff0000;
+	width: 90%;
+}

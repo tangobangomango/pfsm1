@@ -1,0 +1,35 @@
+.pl-property-summary-table tr:nth-of-type(2n) {
+  background: #eeeeee;
+}
+
+td.pl-property-price::before {
+	content: '\20AC'; / *euro symbol */
+	}
+
+.pl-property-introduction {
+	font-weight: bold;
+	font-size: 105%;
+	border-color: #903903;
+	border-width: 2px;
+	border-style: solid;
+	padding: 10px;
+	margin: 10px;
+	
+	}
+
+div.pl-content p:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#pl-map {
+	width: 100%;
+	height: 400px;
+	
+}
